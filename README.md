@@ -8,3 +8,5 @@ This version supports a prototype 3.3V system based on the C02 Pocket SBC V2, us
 Updated BIOS supports the new hardware and the new SIM module supports the second UART port as Reader/Punch
 
 Note that this version also uses CMOS opcodes and addressing modes! Requires an updated BIOS/Monitor now at version 4.01
+
+The code has been broken into multiple code modules for a Base, CCM, PEM and SIM source files. WDC Tools is required to assemble and link. Only the core code is included in the ZIP file. Other utilities such as Super Directory, Submit, etc. can be brought over from the 3.03 ROM version.
